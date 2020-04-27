@@ -1,0 +1,34 @@
+src/*.exe
+src/Avana
+src/Avanad
+src/test_Avana
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.Avana
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+Avana-qt
+Avana-Qt.app
+
+# Unit-tests
+Makefile.test
+Avana-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
